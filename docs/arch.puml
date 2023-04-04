@@ -1,0 +1,23 @@
+title v2x Class Diagram
+
+package v2x{
+    class NetworkManager{
+        init()
+        cleanup()
+        forward_pose()
+    }
+
+    class TrafficManager{
+
+    }
+
+    class NegotiationManager{
+        
+    }
+
+    class Node {
+        init()
+        transmit_pose()
+        receive_pose()
+    }
+}
